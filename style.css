@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  /* font-family: "Montserrat Alternates", sans-serif; */
+}
+
+:root{
+    --grey: #f7e5e5;
+    --red: #ff0000;
+}
+
+.chat-window {
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+  height: 600px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+
+}
+
+.close {
+    border: none;
+    padding: 8px 0;
+    background-color: #1a1a1a;
+    /* background:var(--red); */
+    color: #fff;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .chat {
+    /* background-color: #faeeee; */
+    flex: 1;
+    padding: 0 15px;
+    overflow-y: scroll;
+
+    p{
+        border-radius: 12px;
+        width: 80%;
+        margin: 8px 0;
+    }
+  }
+
+  div.model{
+    p{
+        background-color: var(--grey);
+        padding: 16px;   
+    }
+
+    
+  }
+  div.user{
+    display: flex;
+    justify-content: flex-end;
+
+    p{
+        background-color: var(--red);
+        /* background:#1a1a1a; */
+        color: white;
+        padding: 16px;   
+    }
+
+    
+  }
+
+
+  .input-area {
+    /* background-color: #ff0000; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+    border-top: 1px solid;
+
+
+    input {
+        height: 40px;
+        border: none;
+        flex: 1;
+        background-color: var(--grey); 
+        border-radius: 20px;
+        padding-left: 20px;
+        
+      }
+
+    button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: 12px;
+  
+    background-color: #1a1a1a;
+    border-radius: 100%; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 22px;
+    }
+    }
+}
+ 
