@@ -1,6 +1,6 @@
 // src/data/schoolOfPurpose.js
 
-const info = {
+export const schoolOfPurposeInfo = {
     schoolName: "School of Purpose",
     tagline: "Discover Your Purpose, Fuel Your Impact.",
     enrollmentInfo: {
@@ -37,7 +37,7 @@ const info = {
       founder: {
         name: "Pastor Mrs. Funmilola Omobowoje",
         nickname: "Pastor Flo'",
-        biography: "A highly respected mentor, coach, and visionary leader dedicated to helping individuals discover, embrace, and fulfill their purpose. She has empowered people through various programs since founding SOP in 2016."
+        biography: " Pastor Mrs. Funmilola Omobowoje, A highly respected mentor, coach, and visionary leader dedicated to helping individuals discover, embrace, and fulfill their purpose founded the School of Purpose in 2016. She has empowered people through various programs since founding SOP "
       },
       visionnaire: {
         name: "Pastor Mrs. Funmilola Omobowoje",
@@ -136,5 +136,5 @@ const info = {
     }
   };
   
-  export default info;
+ 
   
